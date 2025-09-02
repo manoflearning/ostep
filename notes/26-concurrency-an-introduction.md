@@ -39,7 +39,7 @@ SKIPPED
 
 - **Race Condition**: The results depend on the timing of the code's execution.
 - **Critical Section**: A piece of code that accesses a shared variable, and must not be concurrently executed by more than one thread.
-- **Mutual Execlution**: If one thread is executing within the critical section, the others will be prevented from doing so.
+- **Mutual Exclusion**: If one thread is executing within the critical section, the others will be prevented from doing so.
 
 ## 26.5. The Wish For Atomicity
 
