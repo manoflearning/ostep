@@ -59,7 +59,7 @@ When executing a trap, the hardware needs to make sure to save enough of the cal
 - To specify the exact system call, a **system-call number** is usually assigned to each system call.
 - The user code is responsible for placing the desired system-call number in a register of at a specified location on the stack.
 - The OS, when handling the system call inside the trap handler, examines this number, ensures it is valid, and if it is, executes the corresponding code.
-- This level of indirection serves as a form of **protection**; use code cannot specify an exact address to jump to, but rather must request a particular service via number.
+- This level of indirection serves as a form of **protection**; user code cannot specify an exact address to jump to, but rather must request a particular service via number.
 
 ## 6.3. Problem #2: Switching Between Processes
 
